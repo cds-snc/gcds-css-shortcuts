@@ -40,6 +40,7 @@ Before:
 
 **Note**: As CSS Shortcuts was previously released as `@cdssnc/gcds-utility`, we’ve kept an archived version of the CHANGELOG which can be found [here](archived/CHANGELOG-UTILITY.md).
 We have deprecated the `@cdssnc/gcds-utility` package on npm. It will no longer receive updates or bug fixes, and we strongly recommend migrating to `@gcds-core/css-shortcuts` to continue receiving improvements and future releases.
+
 ---
 
 # Journal des modifications
