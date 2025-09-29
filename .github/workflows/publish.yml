@@ -2,10 +2,8 @@ name: Publish CSS Shortcuts
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'package.json'
+    tags:
+      - gcds-css-shortcuts*
 
 permissions:
   id-token: write
@@ -20,19 +18,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
-        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - run: npm ci
+      - run: npm run compile
+
+      - name: Extract package version
+        id: pkg
+        run: echo "version=$(node -p \"require('./package.json').version\")" >> "$GITHUB_OUTPUT"
 
       - name: Publish @gcds-core/css-shortcuts to npm
-        uses: JS-DevTools/npm-publish@7f8fe47b3bea1be0c3aec2b717c5ec1f3e03410b
+        run: npm publish --ignore-scripts
         id: publish
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Report deployment to Sentinel
-        if: steps.publish.outputs.id != ''
+        if: always()
         uses: cds-snc/sentinel-forward-data-action@main
         with:
-          input_data: '{"product": "design-system", "sha": "${{ github.sha }}", "version": "${{steps.publish.outputs.id}}", "repository": "${{ github.repository }}", "environment": "production", "status": "${{ job.status }}"}'
+          input_data: >-
+             {"product":"design-system","sha":"${{ github.sha }}","version":"${{ steps.pkg.outputs.version }}","repository":"${{ github.repository }}","environment":"production","status":"${{ job.status }}"}
           log_type: CDS_Product_Deployment_Data
           log_analytics_workspace_id: ${{ secrets.LOG_ANALYTICS_WORKSPACE_ID }}
           log_analytics_workspace_key: ${{ secrets.LOG_ANALYTICS_WORKSPACE_KEY }}
