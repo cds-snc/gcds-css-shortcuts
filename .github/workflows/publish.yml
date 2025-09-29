@@ -2,10 +2,8 @@ name: Publish CSS Shortcuts
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'package.json'
+    tags:
+      - gcds-css-shortcuts*
 
 permissions:
   id-token: write
@@ -20,13 +18,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
-        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
-      - name: Publish @gcds-core/css-shortcuts to npm
-        uses: JS-DevTools/npm-publish@b6b0bb6ebf081acc55469774087b431d6034e6d7
-        id: publish
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
-          token: ${{ secrets.NPM_TOKEN }}
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+
+      - run: npm ci
+      - run: npm run compile
+      - run: npm publish --ignore-scripts
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Report deployment to Sentinel
         if: steps.publish.outputs.id != ''
