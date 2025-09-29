@@ -27,15 +27,23 @@ jobs:
 
       - run: npm ci
       - run: npm run compile
-      - run: npm publish --ignore-scripts
+
+      - name: Extract package version
+        id: pkg
+        run: echo "version=$(node -p \"require('./package.json').version\")" >> "$GITHUB_OUTPUT"
+
+      - name: Publish @gcds-core/css-shortcuts to npm
+        run: npm publish --ignore-scripts
+        id: publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Report deployment to Sentinel
-        if: steps.publish.outputs.id != ''
+        if: always()
         uses: cds-snc/sentinel-forward-data-action@main
         with:
-          input_data: '{"product": "design-system", "sha": "${{ github.sha }}", "version": "${{steps.publish.outputs.id}}", "repository": "${{ github.repository }}", "environment": "production", "status": "${{ job.status }}"}'
+          input_data: >-
+             {"product":"design-system","sha":"${{ github.sha }}","version":"${{ steps.pkg.outputs.version }}","repository":"${{ github.repository }}","environment":"production","status":"${{ job.status }}"}
           log_type: CDS_Product_Deployment_Data
           log_analytics_workspace_id: ${{ secrets.LOG_ANALYTICS_WORKSPACE_ID }}
           log_analytics_workspace_key: ${{ secrets.LOG_ANALYTICS_WORKSPACE_KEY }}
