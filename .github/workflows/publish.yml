@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - gcds-css-shortcuts*
+      - css-shortcuts*
 
 permissions:
   id-token: write
