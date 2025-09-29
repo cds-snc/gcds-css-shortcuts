@@ -64,7 +64,7 @@ Ce produit existait déjà en version Alpha sous le nom GCDS Utility Framework (
 Dans le cadre de ce changement, le numéro de version a été réinitialisé à v1.0.0. Il faudra donc mettre à jour toute référence afin de continuer à recevoir les améliorations futures. Voici un guide pour vous aider à mettre à jour votre code :
 
 ##### Mettre à jour la feuille de style :
-Nos modèles de page utilisent la feuille de style Raccourcis CSS (anciennement gcds-utility) par défaut. Remplacez le lien existant de votre feuille de style par le suivant. Notez le nouveau chemin d’accès, le numéro de version et le nom de fichier.
+Nos modèles de page utilisent la feuille de style Raccourcis CSS (anciennement `gcds-utility`) par défaut. Remplacez le lien existant de votre feuille de style par le suivant. Notez le nouveau chemin d’accès, le numéro de version et le nom de fichier.
 ```html
 <link rel="stylesheet"
 href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
