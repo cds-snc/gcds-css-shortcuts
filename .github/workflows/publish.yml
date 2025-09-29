@@ -30,7 +30,7 @@ jobs:
 
       - name: Extract package version
         id: pkg
-        run: echo "version=$(node -p \"require('./package.json').version\")" >> "$GITHUB_OUTPUT"
+        run: echo "version=$(cat package.json | jq -r .version)" >> "$GITHUB_OUTPUT"
 
       - name: Publish @gcds-core/css-shortcuts to npm
         run: npm publish --ignore-scripts
