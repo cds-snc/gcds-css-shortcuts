@@ -40,5 +40,5 @@ jobs:
       - name: Slack notify on failure
         if: failure()
         run: |
-          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @gcds-core/css-shortcuts failed: <https://github.com/cds-snc/gcds-css-shortcuts/actions/workflows/compile-core.yml|Compile Core>"}}]}'
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @gcds-core/css-shortcuts failed: <https://github.com/cds-snc/gcds-css-shortcuts/actions/workflows/publish.yml|Publish CSS Shortcuts>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
