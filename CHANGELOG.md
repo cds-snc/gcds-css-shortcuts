@@ -15,15 +15,17 @@ This product has previously been released as an alpha version named GCDS Utility
 
 As part of this change, the version number has been reset to v1.0.0, so you’ll need to update your references to continue receiving future improvements. Here’s a guide to help with update your code:
 
-**Update the stylesheet:**
-1. Our page templates use the CSS Shortcuts (previously `gcds-utility`) stylesheet by default. Replace your existing stylesheet link with the following. Note the new path, version number, and filename.
+##### Update the stylesheet:
+Our page templates use the CSS Shortcuts (previously `gcds-utility`) stylesheet by default. Replace your existing stylesheet link with the following. Note the new path, version number, and filename.
 ```html
 <link rel="stylesheet"
 href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
 ```
-⚠️ **CDN deprecation notice**: References to the legacy `@cdssnc/gcds-utility` CDN build will remain available for one year to support existing projects. After that period, the CDN will be removed and requests to the old URLs will no longer resolve. Please update your references to point to the new package and CDN path as soon as possible to avoid disruptions.
 
-**Update your NPM package:**
+###### ⚠️ CDN deprecation notice:
+References to the legacy `@cdssnc/gcds-utility` CDN build will remain available for one year to support existing projects. After that period, the CDN will be removed and requests to the old URLs will no longer resolve. Please update your references to point to the new package and CDN path as soon as possible to avoid disruptions.
+
+##### Update your NPM package:
 Find out if you’re using the old package in your project by checking your package.json for references to `@cdssnc/gcds-utility`. If you are, here’s how to update to the new one:
 1. `npm uninstall @cdssnc/gcds-utility`
 2. `npm install @gcds-core/css-shortcuts`
@@ -61,16 +63,17 @@ Ce produit existait déjà en version Alpha sous le nom GCDS Utility Framework (
 
 Dans le cadre de ce changement, le numéro de version a été réinitialisé à v1.0.0. Il faudra donc mettre à jour toute référence afin de continuer à recevoir les améliorations futures. Voici un guide pour vous aider à mettre à jour votre code :
 
-**Mettre à jour la feuille de style :**
-1. Nos modèles de page utilisent la feuille de style Raccourcis CSS (anciennement gcds-utility) par défaut. Remplacez le lien existant de votre feuille de style par le suivant. Notez le nouveau chemin d’accès, le numéro de version et le nom de fichier.
+##### Mettre à jour la feuille de style :
+Nos modèles de page utilisent la feuille de style Raccourcis CSS (anciennement gcds-utility) par défaut. Remplacez le lien existant de votre feuille de style par le suivant. Notez le nouveau chemin d’accès, le numéro de version et le nom de fichier.
 ```html
 <link rel="stylesheet"
 href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
 ```
 
-⚠️ **Avis d’obsolescence du CDN** : Les références à l’ancienne version du CDN `@cdssnc/gcds-utility` resteront accessibles pendant un an pour soutenir les projets existants. Après cette période, le CDN sera supprimé et les demandes liées aux anciennes URL ne seront plus résolues. Veuillez mettre à jour vos références vers le nouveau paquet et chemin CDN dès que possible afin d’éviter toute interruption.
+###### ⚠️ Avis d’obsolescence du CDN :
+Les références à l’ancienne version du CDN `@cdssnc/gcds-utility` resteront accessibles pendant un an pour soutenir les projets existants. Après cette période, le CDN sera supprimé et les demandes liées aux anciennes URL ne seront plus résolues. Veuillez mettre à jour vos références vers le nouveau paquet et chemin CDN dès que possible afin d’éviter toute interruption.
 
-**Mettre à jour le paquet NPM :**
+##### Mettre à jour le paquet NPM :
 Découvrez si vous utilisez l’ancien paquet dans votre projet en vérifiant si votre paquet.json contient des références à `@cdssnc/gcds-utility`. Si l’ancien paquet s’y trouve, voici comment faire la mise à jour vers le nouveau :
 1. `npm uninstall @cdssnc/gcds-utility`
 2. `npm install @gcds-core/css-shortcuts`
