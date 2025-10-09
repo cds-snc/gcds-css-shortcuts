@@ -1,5 +1,12 @@
 ([Français](#journal-des-modifications))
 # Changelog
+## [1.0.1](https://github.com/cds-snc/gcds-css-shortcuts/compare/css-shortcuts-v1.0.0...css-shortcuts-v1.0.1) (2025-10-09)
+
+
+### :bug: :wrench: Bug Fixes
+
+* get version ([e8e5198](https://github.com/cds-snc/gcds-css-shortcuts/commit/e8e5198d345777d117995af8351963e138619247))
+
 ## v1.0.0
 
 Released on: 2025-09-29
