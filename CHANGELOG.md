@@ -1,5 +1,14 @@
 ([Français](#journal-des-modifications))
 # Changelog
+## [1.0.1](https://github.com/cds-snc/gcds-css-shortcuts/compare/css-shortcuts-v1.0.0...css-shortcuts-v1.0.1) (2025-10-16)
+
+
+### :bug: :wrench: Bug Fixes
+
+* get version ([e8e5198](https://github.com/cds-snc/gcds-css-shortcuts/commit/e8e5198d345777d117995af8351963e138619247))
+* improve accessibility of visibility-sr-only class ([#288](https://github.com/cds-snc/gcds-css-shortcuts/issues/288)) ([a45bdca](https://github.com/cds-snc/gcds-css-shortcuts/commit/a45bdcaf362f04df8dc7e9448d4d6c7cef50ef8d))
+* improve accessibility visibility-sr-only class ([a45bdca](https://github.com/cds-snc/gcds-css-shortcuts/commit/a45bdcaf362f04df8dc7e9448d4d6c7cef50ef8d))
+
 ## v1.0.0
 
 Released on: 2025-09-29
