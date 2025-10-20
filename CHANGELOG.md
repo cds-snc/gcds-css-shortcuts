@@ -1,5 +1,12 @@
 ([Français](#journal-des-modifications))
 # Changelog
+## [1.0.1](https://github.com/cds-snc/gcds-css-shortcuts/compare/css-shortcuts-v1.0.0...css-shortcuts-v1.0.1)
+Released on: 2025-10-16
+
+
+### :wrench: Improvements
+* **visibility-sr-only**: Remove extra padding when using this class for accessibility to align with the SR Only component ([#288](https://github.com/cds-snc/gcds-css-shortcuts/issues/288)) ([a45bdca](https://github.com/cds-snc/gcds-css-shortcuts/commit/a45bdcaf362f04df8dc7e9448d4d6c7cef50ef8d))
+
 ## v1.0.0
 
 Released on: 2025-09-29
