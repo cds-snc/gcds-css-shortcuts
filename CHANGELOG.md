@@ -1,5 +1,17 @@
 ([Français](#journal-des-modifications))
 # Changelog
+## [1.1.0](https://github.com/cds-snc/gcds-css-shortcuts/compare/css-shortcuts-v1.0.1...css-shortcuts-v1.1.0) (2026-01-05)
+
+
+### :rocket: New Features
+
+* notify when issue created by external user ([#307](https://github.com/cds-snc/gcds-css-shortcuts/issues/307)) ([1fc95f6](https://github.com/cds-snc/gcds-css-shortcuts/commit/1fc95f6db1124f09e1d4403bfe60098a2be62201))
+
+
+### :bug: :wrench: Bug Fixes
+
+* escape of issue title characters ([#311](https://github.com/cds-snc/gcds-css-shortcuts/issues/311)) ([023019f](https://github.com/cds-snc/gcds-css-shortcuts/commit/023019fbe69f7e4a66011bf6625500ef719afe18))
+
 ## [1.0.1](https://github.com/cds-snc/gcds-css-shortcuts/compare/css-shortcuts-v1.0.0...css-shortcuts-v1.0.1)
 Released on: 2025-10-16
 
