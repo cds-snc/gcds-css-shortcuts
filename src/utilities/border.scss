@@ -9,14 +9,13 @@ $borderWidth: (
   lg: var(--gcds-border-width-lg) solid currentColor,
   xl: var(--gcds-border-width-xl) solid currentColor,
   0: 0,
-) !default;
+  ) !default;
 
 @each $classSide, $side in $sides {
-  @include mixins.generateClasses(
-    $borderWidth,
+  @include mixins.generateClasses($borderWidth,
     'b' + #{$classSide} + '-',
     border#{$side}
-  );
+);
 }
 
 /* --- Border Style --- */
@@ -26,22 +25,24 @@ $borderStyle: (
   dotted: dotted,
   none: none,
   solid: solid,
-) !default;
+  ) !default;
 
-@include mixins.generateClasses($borderStyle, 'b-', border-style);
+@include mixins.generateClasses($borderStyle, 'b-', border-style
+);
 
 /* --- Border Color --- */
 
 $borderColor: (
   inherit: inherit,
   current: currentColor,
-  dark: var(--gcds-color-grayscale-1000),
+  dark: var(--gcds-color-black),
   default: var(--gcds-border-default),
-  light: var(--gcds-color-grayscale-0),
+  light: var(--gcds-color-white),
   transparent: transparent,
-) !default;
+  ) !default;
 
-@include mixins.generateClasses($borderColor, 'b-', border-color);
+@include mixins.generateClasses($borderColor, 'b-', border-color
+);
 
 /* --- Border Radius --- */
 
@@ -50,6 +51,7 @@ $borderRadius: (
   md: var(--gcds-border-radius-md),
   lg: var(--gcds-border-radius-lg),
   xl: var(--gcds-border-radius-xl),
-) !default;
+  ) !default;
 
-@include mixins.generateClasses($borderRadius, 'b-radius-', border-radius);
+@include mixins.generateClasses($borderRadius, 'b-radius-', border-radius
+);

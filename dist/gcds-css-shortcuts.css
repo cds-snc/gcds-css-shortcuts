@@ -5,36 +5,118 @@
  * Do not edit directly, this file was auto-generated.
  */
 :root {
-  --gcds-color-blue-100: #d7e5f5;
-  --gcds-color-blue-500: #6584a6; /** Must contrast 3:1 with white */
-  --gcds-color-blue-650: #284162;
-  --gcds-color-blue-700: #33465c; /** Must contrast 7:1 with white */
-  --gcds-color-blue-750: #1e7b96;
-  --gcds-color-blue-800: #2b4380;
-  --gcds-color-blue-850: #0535d2; /** Focus and hover colour */
-  --gcds-color-blue-900: #26374a;
-  --gcds-color-grayscale-0: #ffffff;
-  --gcds-color-grayscale-50: #f1f2f3;
-  --gcds-color-grayscale-100: #d6d9dd;
-  --gcds-color-grayscale-300: #a8adb4;
-  --gcds-color-grayscale-500: #7d828b; /** Must contrast 3:1 with white */
-  --gcds-color-grayscale-700: #545961; /** Must contrast 7:1 with white */
-  --gcds-color-grayscale-800: #43474e;
-  --gcds-color-grayscale-900: #333333;
-  --gcds-color-grayscale-1000: #000000;
-  --gcds-color-green-100: #e6f6ec;
-  --gcds-color-green-500: #289f58; /** Must contrast 3:1 with white */
-  --gcds-color-green-700: #03662a; /** Must contrast 7:1 with white */
-  --gcds-color-green-800: #023b1a;
-  --gcds-color-purple-700: #7532b8; /** Must contrast 7:1 with white */
-  --gcds-color-orange-700: #be5a00; /** Must contrast 7:1 with white */
-  --gcds-color-red-100: #fbddda;
-  --gcds-color-red-500: #d3080c; /** Must contrast 3:1 with white */
-  --gcds-color-red-700: #a62a1e; /** Must contrast 7:1 with white */
-  --gcds-color-red-900: #822117;
-  --gcds-color-red-flag: #eb2d37; /** Signature flag colour - FIP red */
-  --gcds-color-yellow-100: #faedd1;
-  --gcds-color-yellow-500: #b3800f; /** Must contrast 3:1 with white */
+  --gcds-color-black: #000000;
+  --gcds-color-blue-50: #ebf2fa;
+  --gcds-color-blue-100: #d6e4f5;
+  --gcds-color-blue-150: #c2d7f0;
+  --gcds-color-blue-200: #adcaeb;
+  --gcds-color-blue-250: #99bde6;
+  --gcds-color-blue-300: #85afe0;
+  --gcds-color-blue-350: #70a2db;
+  --gcds-color-blue-400: #5c95d6;
+  --gcds-color-blue-450: #4788d1;
+  --gcds-color-blue-500: #337acc;
+  --gcds-color-blue-550: #2e6eb8;
+  --gcds-color-blue-600: #2962a3;
+  --gcds-color-blue-650: #24568f;
+  --gcds-color-blue-700: #1f497a;
+  --gcds-color-blue-750: #193d66;
+  --gcds-color-blue-800: #143152;
+  --gcds-color-blue-850: #0f253d;
+  --gcds-color-blue-900: #0a1829;
+  --gcds-color-blue-muted: #26374a; /** Primary colour */
+  --gcds-color-blue-vivid: #1354ec; /** Focus and hover colour */
+  --gcds-color-grayscale-50: #f2f2f2;
+  --gcds-color-grayscale-100: #e6e6e6;
+  --gcds-color-grayscale-150: #d9d9d9;
+  --gcds-color-grayscale-200: #cccccc;
+  --gcds-color-grayscale-250: #bfbfbf;
+  --gcds-color-grayscale-300: #b3b3b3;
+  --gcds-color-grayscale-350: #a6a6a6;
+  --gcds-color-grayscale-400: #999999;
+  --gcds-color-grayscale-450: #8c8c8c;
+  --gcds-color-grayscale-500: #808080;
+  --gcds-color-grayscale-550: #737373;
+  --gcds-color-grayscale-600: #666666;
+  --gcds-color-grayscale-650: #595959;
+  --gcds-color-grayscale-700: #4d4d4d;
+  --gcds-color-grayscale-750: #404040;
+  --gcds-color-grayscale-800: #333333;
+  --gcds-color-grayscale-850: #262626;
+  --gcds-color-grayscale-900: #1a1a1a;
+  --gcds-color-green-50: #ebfaf0;
+  --gcds-color-green-100: #d6f5e1;
+  --gcds-color-green-150: #c2f0d3;
+  --gcds-color-green-200: #adebc4;
+  --gcds-color-green-250: #99e6b5;
+  --gcds-color-green-300: #85e0a6;
+  --gcds-color-green-350: #70db97;
+  --gcds-color-green-400: #5cd689;
+  --gcds-color-green-450: #47d17a;
+  --gcds-color-green-500: #33cc6b;
+  --gcds-color-green-550: #2eb860;
+  --gcds-color-green-600: #29a356;
+  --gcds-color-green-650: #248f4b;
+  --gcds-color-green-700: #1f7a40;
+  --gcds-color-green-750: #196636;
+  --gcds-color-green-800: #14522b;
+  --gcds-color-green-850: #0f3d20;
+  --gcds-color-green-900: #0a2915;
+  --gcds-color-purple-50: #f0ebfa;
+  --gcds-color-purple-100: #e1d6f5;
+  --gcds-color-purple-150: #d3c2f0;
+  --gcds-color-purple-200: #c4adeb;
+  --gcds-color-purple-250: #b599e6;
+  --gcds-color-purple-300: #a685e0;
+  --gcds-color-purple-350: #9770db;
+  --gcds-color-purple-400: #895cd6;
+  --gcds-color-purple-450: #7a47d1;
+  --gcds-color-purple-500: #6b33cc;
+  --gcds-color-purple-550: #602eb8;
+  --gcds-color-purple-600: #5629a3;
+  --gcds-color-purple-650: #4b248f;
+  --gcds-color-purple-700: #401f7a;
+  --gcds-color-purple-750: #361966;
+  --gcds-color-purple-800: #2b1452;
+  --gcds-color-purple-850: #200f3d;
+  --gcds-color-purple-900: #150a29;
+  --gcds-color-red-50: #fce9eb;
+  --gcds-color-red-100: #f9d2d7;
+  --gcds-color-red-150: #f5bcc4;
+  --gcds-color-red-200: #f2a6b0;
+  --gcds-color-red-250: #ef8f9c;
+  --gcds-color-red-300: #ec7988;
+  --gcds-color-red-350: #e96375;
+  --gcds-color-red-400: #e64d61;
+  --gcds-color-red-450: #e2364d;
+  --gcds-color-red-500: #df2039;
+  --gcds-color-red-550: #c91d34;
+  --gcds-color-red-600: #b3192e;
+  --gcds-color-red-650: #9c1628;
+  --gcds-color-red-700: #861322;
+  --gcds-color-red-750: #70101d;
+  --gcds-color-red-800: #590d17;
+  --gcds-color-red-850: #430a11;
+  --gcds-color-red-900: #2d060b;
+  --gcds-color-white: #ffffff;
+  --gcds-color-yellow-50: #fef7e7;
+  --gcds-color-yellow-100: #fcefcf;
+  --gcds-color-yellow-150: #fbe7b6;
+  --gcds-color-yellow-200: #fade9e;
+  --gcds-color-yellow-250: #f9d686;
+  --gcds-color-yellow-300: #f7ce6e;
+  --gcds-color-yellow-350: #f6c655;
+  --gcds-color-yellow-400: #f5be3d;
+  --gcds-color-yellow-450: #f4b625;
+  --gcds-color-yellow-500: #f2ad0d;
+  --gcds-color-yellow-550: #da9c0b;
+  --gcds-color-yellow-600: #c28b0a;
+  --gcds-color-yellow-650: #aa7909;
+  --gcds-color-yellow-700: #916808;
+  --gcds-color-yellow-750: #795706;
+  --gcds-color-yellow-800: #614505;
+  --gcds-color-yellow-850: #493404;
+  --gcds-color-yellow-900: #302303;
 }
 
 /**
@@ -49,28 +131,28 @@
   --gcds-border-width-md: 0.125rem; /** Global border: width md */
   --gcds-border-width-lg: 0.25rem; /** Global border: width lg */
   --gcds-border-width-xl: 0.375rem; /** Global border: width xl */
-  --gcds-border-default: #7d828b; /** Global color: border default */
+  --gcds-border-default: #8c8c8c; /** Global color: border default */
   --gcds-active-background: #000000; /** Global color: active background */
   --gcds-active-text: #ffffff; /** Global color: active text */
   --gcds-bg-dark: #333333; /** Global bg color: dark background */
-  --gcds-bg-light: #f1f2f3; /** Global bg color: light background */
+  --gcds-bg-light: #f2f2f2; /** Global bg color: light background */
   --gcds-bg-primary: #26374a; /** Global bg color: primary background */
   --gcds-bg-white: #ffffff; /** Global bg color: white background */
-  --gcds-danger-background: #fbddda; /** Global color: danger background */
-  --gcds-danger-border: #d3080c; /** Global color: danger border */
-  --gcds-danger-text: #a62a1e; /** Global color: danger text */
-  --gcds-disabled-background: #d6d9dd; /** Global color: disabled background */
-  --gcds-disabled-text: #545961; /** Global color: disabled text */
-  --gcds-focus-background: #0535d2; /** Global color: focus background */
-  --gcds-focus-border: #0535d2; /** Global color: focus border */
+  --gcds-danger-background: #b3192e; /** Global color: danger background */
+  --gcds-danger-border: #b3192e; /** Global color: danger border */
+  --gcds-danger-text: #b3192e; /** Global color: danger text */
+  --gcds-disabled-background: #d9d9d9; /** Global color: disabled background */
+  --gcds-disabled-text: #808080; /** Global color: disabled text */
+  --gcds-focus-background: #1354ec; /** Global color: focus background */
+  --gcds-focus-border: #1354ec; /** Global color: focus border */
   --gcds-focus-text: #ffffff; /** Global color: focus text */
-  --gcds-link-default: #284162; /** Global color: link default */
-  --gcds-link-hover: #0535d2; /** Global color: link hover */
+  --gcds-link-default: #1f497a; /** Global color: link default */
+  --gcds-link-hover: #1354ec; /** Global color: link hover */
   --gcds-link-light: #ffffff; /** Global color: link light */
-  --gcds-link-visited: #7532b8; /** Global color: link visited */
+  --gcds-link-visited: #4b248f; /** Global color: link visited */
   --gcds-text-light: #ffffff; /** Global color: text light */
   --gcds-text-primary: #333333; /** Global color: text primary */
-  --gcds-text-secondary: #43474e; /** Global color: text secondary */
+  --gcds-text-secondary: #595959; /** Global color: text secondary */
   --gcds-container-xs: 20rem;
   --gcds-container-sm: 30rem;
   --gcds-container-md: 48rem;
@@ -114,28 +196,28 @@
   --gcds-base-font-size-mobile: 1.125; /** Sets base font size for smaller screens to 18px */
   --gcds-base-line-height: 1.6; /** Sets base line height to 32px */
   --gcds-base-scale: 1.1;
-  --gcds-font-h1: 700 2.5625rem/117% "Lato", sans-serif;
-  --gcds-font-h1-mobile: 700 2.3125rem/119% "Lato", sans-serif;
-  --gcds-font-h2: 700 2.4375rem/123% "Lato", sans-serif;
-  --gcds-font-h2-mobile: 700 2.1875rem/125% "Lato", sans-serif;
-  --gcds-font-h3: 700 1.8125rem/137% "Lato", sans-serif;
-  --gcds-font-h3-mobile: 700 1.625rem/123% "Lato", sans-serif;
-  --gcds-font-h4: 700 1.6875rem/133% "Lato", sans-serif;
-  --gcds-font-h4-mobile: 700 1.5rem/133% "Lato", sans-serif;
-  --gcds-font-h5: 700 1.5rem/133% "Lato", sans-serif;
-  --gcds-font-h5-mobile: 700 1.375rem/127% "Lato", sans-serif;
-  --gcds-font-h6: 700 1.375rem/145% "Lato", sans-serif;
-  --gcds-font-h6-mobile: 700 1.25rem/140% "Lato", sans-serif;
-  --gcds-font-text: 400 1.25rem/160% "Noto Sans", sans-serif;
-  --gcds-font-text-mobile: 400 1.125rem/155% "Noto Sans", sans-serif;
-  --gcds-font-text-mono: 400 1.25rem/160% "Noto Sans Mono", monospace;
-  --gcds-font-text-mono-mobile: 400 1.125rem/155% "Noto Sans Mono", monospace;
-  --gcds-font-text-small: 400 1.125rem/155% "Noto Sans", sans-serif;
-  --gcds-font-text-small-mobile: 400 1rem/150% "Noto Sans", sans-serif;
-  --gcds-font-families-heading: "Lato", sans-serif;
-  --gcds-font-families-body: "Noto Sans", sans-serif;
-  --gcds-font-families-monospace: "Noto Sans Mono", monospace;
-  --gcds-font-families-icons: "gcds-icons";
+  --gcds-font-h1: 700 2.5625rem/117% 'Lato', sans-serif;
+  --gcds-font-h1-mobile: 700 2.3125rem/119% 'Lato', sans-serif;
+  --gcds-font-h2: 700 2.4375rem/123% 'Lato', sans-serif;
+  --gcds-font-h2-mobile: 700 2.1875rem/125% 'Lato', sans-serif;
+  --gcds-font-h3: 700 1.8125rem/137% 'Lato', sans-serif;
+  --gcds-font-h3-mobile: 700 1.625rem/123% 'Lato', sans-serif;
+  --gcds-font-h4: 700 1.6875rem/133% 'Lato', sans-serif;
+  --gcds-font-h4-mobile: 700 1.5rem/133% 'Lato', sans-serif;
+  --gcds-font-h5: 700 1.5rem/133% 'Lato', sans-serif;
+  --gcds-font-h5-mobile: 700 1.375rem/127% 'Lato', sans-serif;
+  --gcds-font-h6: 700 1.375rem/145% 'Lato', sans-serif;
+  --gcds-font-h6-mobile: 700 1.25rem/140% 'Lato', sans-serif;
+  --gcds-font-text: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-font-text-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-font-text-mono: 400 1.25rem/160% 'Noto Sans Mono', monospace;
+  --gcds-font-text-mono-mobile: 400 1.125rem/155% 'Noto Sans Mono', monospace;
+  --gcds-font-text-small: 400 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-font-text-small-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-font-families-heading: 'Lato', sans-serif;
+  --gcds-font-families-body: 'Noto Sans', sans-serif;
+  --gcds-font-families-monospace: 'Noto Sans Mono', monospace;
+  --gcds-font-families-icons: 'gcds-icons';
   --gcds-font-sizes-text-small: 1.125rem;
   --gcds-font-sizes-text-small-mobile: 1rem;
   --gcds-font-sizes-text: 1.25rem;
@@ -186,22 +268,25 @@
   --gcds-heading-character-limit-h5: 50ch;
   --gcds-heading-character-limit-h6: 57ch;
   --gcds-heading-default-text: #333333;
-  --gcds-heading-h1-border-background: #a62a1e;
+  --gcds-heading-h1-border-background: #a62a1e; /** Heading accent colour - Canada.ca style */
   --gcds-heading-h1-border-height: 0.375rem;
   --gcds-heading-h1-border-margin: 0.5rem;
   --gcds-heading-h1-border-width: 4.5rem;
-  --gcds-heading-h1-desktop: 700 2.5625rem/117% "Lato", sans-serif;
-  --gcds-heading-h1-mobile: 700 2.3125rem/119% "Lato", sans-serif;
-  --gcds-heading-h2-desktop: 700 2.4375rem/123% "Lato", sans-serif;
-  --gcds-heading-h2-mobile: 700 2.1875rem/125% "Lato", sans-serif;
-  --gcds-heading-h3-desktop: 700 1.8125rem/137% "Lato", sans-serif;
-  --gcds-heading-h3-mobile: 700 1.625rem/123% "Lato", sans-serif;
-  --gcds-heading-h4-desktop: 700 1.6875rem/133% "Lato", sans-serif;
-  --gcds-heading-h4-mobile: 700 1.5rem/133% "Lato", sans-serif;
-  --gcds-heading-h5-desktop: 700 1.5rem/133% "Lato", sans-serif;
-  --gcds-heading-h5-mobile: 700 1.375rem/127% "Lato", sans-serif;
-  --gcds-heading-h6-desktop: 700 1.375rem/145% "Lato", sans-serif;
-  --gcds-heading-h6-mobile: 700 1.25rem/140% "Lato", sans-serif;
+  --gcds-heading-h1-desktop: 700 2.5625rem/117% 'Lato', sans-serif;
+  --gcds-heading-h1-mobile: 700 2.3125rem/119% 'Lato', sans-serif;
+  --gcds-heading-h2-desktop: 700 2.4375rem/123% 'Lato', sans-serif;
+  --gcds-heading-h2-mobile: 700 2.1875rem/125% 'Lato', sans-serif;
+  --gcds-heading-h3-desktop: 700 1.8125rem/137% 'Lato', sans-serif;
+  --gcds-heading-h3-mobile: 700 1.625rem/123% 'Lato', sans-serif;
+  --gcds-heading-h4-desktop: 700 1.6875rem/133% 'Lato', sans-serif;
+  --gcds-heading-h4-mobile: 700 1.5rem/133% 'Lato', sans-serif;
+  --gcds-heading-h5-desktop: 700 1.5rem/133% 'Lato', sans-serif;
+  --gcds-heading-h5-mobile: 700 1.375rem/127% 'Lato', sans-serif;
+  --gcds-heading-h6-desktop: 700 1.375rem/145% 'Lato', sans-serif;
+  --gcds-heading-h6-mobile: 700 1.25rem/140% 'Lato', sans-serif;
+  --gcds-heading-role-light: #ffffff;
+  --gcds-heading-role-primary: #333333;
+  --gcds-heading-role-secondary: #595959;
   --gcds-heading-spacing-0: 0rem;
   --gcds-heading-spacing-25: 0.125rem;
   --gcds-heading-spacing-50: 0.25rem;
@@ -239,16 +324,16 @@
  * Do not edit directly, this file was auto-generated.
  */
 :root {
-  --gcds-link-focus-background: #0535d2;
+  --gcds-link-focus-background: #1354ec;
   --gcds-link-focus-outline-width: 0.25rem;
   --gcds-link-focus-outline-offset: 0.125rem;
   --gcds-link-focus-text: #ffffff;
   --gcds-link-focus-border-radius: 0.125rem;
   --gcds-link-focus-box-shadow: 0 0 0 0.125rem #ffffff;
-  --gcds-link-font-small-desktop: 400 1.125rem/155% "Noto Sans", sans-serif;
-  --gcds-link-font-small-mobile: 400 1rem/150% "Noto Sans", sans-serif;
-  --gcds-link-font-regular-desktop: 400 1.25rem/160% "Noto Sans", sans-serif;
-  --gcds-link-font-regular-mobile: 400 1.125rem/155% "Noto Sans", sans-serif;
+  --gcds-link-font-small-desktop: 400 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-link-font-small-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-link-font-regular-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-link-font-regular-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-link-decoration-thickness: 0.0625rem;
   --gcds-link-hover-decoration-thickness: 0.125rem;
   --gcds-link-underline-offset: 0.125rem;
@@ -261,11 +346,11 @@
   --gcds-text-character-limit: 65ch;
   --gcds-text-role-light: #ffffff;
   --gcds-text-role-primary: #333333;
-  --gcds-text-role-secondary: #43474e;
-  --gcds-text-size-body-desktop: 400 1.25rem/160% "Noto Sans", sans-serif;
-  --gcds-text-size-body-mobile: 400 1.125rem/155% "Noto Sans", sans-serif;
-  --gcds-text-size-small-desktop: 400 1.125rem/155% "Noto Sans", sans-serif;
-  --gcds-text-size-small-mobile: 400 1rem/150% "Noto Sans", sans-serif;
+  --gcds-text-role-secondary: #595959;
+  --gcds-text-size-body-desktop: 400 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-text-size-body-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-text-size-small-desktop: 400 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-text-size-small-mobile: 400 1rem/150% 'Noto Sans', sans-serif;
   --gcds-text-spacing-0: 0rem;
   --gcds-text-spacing-25: 0.125rem;
   --gcds-text-spacing-50: 0.25rem;
@@ -1918,7 +2003,7 @@ table {
 }
 
 .bg-black {
-  background-color: var(--gcds-color-grayscale-1000);
+  background-color: var(--gcds-color-black);
 }
 
 .bg-current {
@@ -1962,7 +2047,7 @@ table {
 }
 
 .hover\:bg-black:hover {
-  background-color: var(--gcds-color-grayscale-1000);
+  background-color: var(--gcds-color-black);
 }
 
 .hover\:bg-current:hover {
@@ -2006,7 +2091,7 @@ table {
 }
 
 .focus\:bg-black:focus {
-  background-color: var(--gcds-color-grayscale-1000);
+  background-color: var(--gcds-color-black);
 }
 
 .focus\:bg-current:focus {
@@ -2050,7 +2135,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .xs\:bg-black {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .xs\:bg-current {
     background-color: currentColor;
@@ -2083,7 +2168,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .xs\:hover\:bg-black:hover {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .xs\:hover\:bg-current:hover {
     background-color: currentColor;
@@ -2116,7 +2201,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .xs\:focus\:bg-black:focus {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .xs\:focus\:bg-current:focus {
     background-color: currentColor;
@@ -2151,7 +2236,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .sm\:bg-black {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .sm\:bg-current {
     background-color: currentColor;
@@ -2184,7 +2269,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .sm\:hover\:bg-black:hover {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .sm\:hover\:bg-current:hover {
     background-color: currentColor;
@@ -2217,7 +2302,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .sm\:focus\:bg-black:focus {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .sm\:focus\:bg-current:focus {
     background-color: currentColor;
@@ -2252,7 +2337,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .md\:bg-black {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .md\:bg-current {
     background-color: currentColor;
@@ -2285,7 +2370,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .md\:hover\:bg-black:hover {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .md\:hover\:bg-current:hover {
     background-color: currentColor;
@@ -2318,7 +2403,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .md\:focus\:bg-black:focus {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .md\:focus\:bg-current:focus {
     background-color: currentColor;
@@ -2353,7 +2438,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .lg\:bg-black {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .lg\:bg-current {
     background-color: currentColor;
@@ -2386,7 +2471,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .lg\:hover\:bg-black:hover {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .lg\:hover\:bg-current:hover {
     background-color: currentColor;
@@ -2419,7 +2504,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .lg\:focus\:bg-black:focus {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .lg\:focus\:bg-current:focus {
     background-color: currentColor;
@@ -2454,7 +2539,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .xl\:bg-black {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .xl\:bg-current {
     background-color: currentColor;
@@ -2487,7 +2572,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .xl\:hover\:bg-black:hover {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .xl\:hover\:bg-current:hover {
     background-color: currentColor;
@@ -2520,7 +2605,7 @@ table {
     background-color: var(--gcds-active-background);
   }
   .xl\:focus\:bg-black:focus {
-    background-color: var(--gcds-color-grayscale-1000);
+    background-color: var(--gcds-color-black);
   }
   .xl\:focus\:bg-current:focus {
     background-color: currentColor;
@@ -5225,7 +5310,7 @@ table {
 }
 
 .b-dark {
-  border-color: var(--gcds-color-grayscale-1000);
+  border-color: var(--gcds-color-black);
 }
 
 .b-default {
@@ -5233,7 +5318,7 @@ table {
 }
 
 .b-light {
-  border-color: var(--gcds-color-grayscale-0);
+  border-color: var(--gcds-color-white);
 }
 
 .b-transparent {
@@ -5249,7 +5334,7 @@ table {
 }
 
 .hover\:b-dark:hover {
-  border-color: var(--gcds-color-grayscale-1000);
+  border-color: var(--gcds-color-black);
 }
 
 .hover\:b-default:hover {
@@ -5257,7 +5342,7 @@ table {
 }
 
 .hover\:b-light:hover {
-  border-color: var(--gcds-color-grayscale-0);
+  border-color: var(--gcds-color-white);
 }
 
 .hover\:b-transparent:hover {
@@ -5273,7 +5358,7 @@ table {
 }
 
 .focus\:b-dark:focus {
-  border-color: var(--gcds-color-grayscale-1000);
+  border-color: var(--gcds-color-black);
 }
 
 .focus\:b-default:focus {
@@ -5281,7 +5366,7 @@ table {
 }
 
 .focus\:b-light:focus {
-  border-color: var(--gcds-color-grayscale-0);
+  border-color: var(--gcds-color-white);
 }
 
 .focus\:b-transparent:focus {
@@ -5296,13 +5381,13 @@ table {
     border-color: currentColor;
   }
   .xs\:b-dark {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .xs\:b-default {
     border-color: var(--gcds-border-default);
   }
   .xs\:b-light {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .xs\:b-transparent {
     border-color: transparent;
@@ -5314,13 +5399,13 @@ table {
     border-color: currentColor;
   }
   .xs\:hover\:b-dark:hover {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .xs\:hover\:b-default:hover {
     border-color: var(--gcds-border-default);
   }
   .xs\:hover\:b-light:hover {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .xs\:hover\:b-transparent:hover {
     border-color: transparent;
@@ -5332,13 +5417,13 @@ table {
     border-color: currentColor;
   }
   .xs\:focus\:b-dark:focus {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .xs\:focus\:b-default:focus {
     border-color: var(--gcds-border-default);
   }
   .xs\:focus\:b-light:focus {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .xs\:focus\:b-transparent:focus {
     border-color: transparent;
@@ -5352,13 +5437,13 @@ table {
     border-color: currentColor;
   }
   .sm\:b-dark {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .sm\:b-default {
     border-color: var(--gcds-border-default);
   }
   .sm\:b-light {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .sm\:b-transparent {
     border-color: transparent;
@@ -5370,13 +5455,13 @@ table {
     border-color: currentColor;
   }
   .sm\:hover\:b-dark:hover {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .sm\:hover\:b-default:hover {
     border-color: var(--gcds-border-default);
   }
   .sm\:hover\:b-light:hover {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .sm\:hover\:b-transparent:hover {
     border-color: transparent;
@@ -5388,13 +5473,13 @@ table {
     border-color: currentColor;
   }
   .sm\:focus\:b-dark:focus {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .sm\:focus\:b-default:focus {
     border-color: var(--gcds-border-default);
   }
   .sm\:focus\:b-light:focus {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .sm\:focus\:b-transparent:focus {
     border-color: transparent;
@@ -5408,13 +5493,13 @@ table {
     border-color: currentColor;
   }
   .md\:b-dark {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .md\:b-default {
     border-color: var(--gcds-border-default);
   }
   .md\:b-light {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .md\:b-transparent {
     border-color: transparent;
@@ -5426,13 +5511,13 @@ table {
     border-color: currentColor;
   }
   .md\:hover\:b-dark:hover {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .md\:hover\:b-default:hover {
     border-color: var(--gcds-border-default);
   }
   .md\:hover\:b-light:hover {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .md\:hover\:b-transparent:hover {
     border-color: transparent;
@@ -5444,13 +5529,13 @@ table {
     border-color: currentColor;
   }
   .md\:focus\:b-dark:focus {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .md\:focus\:b-default:focus {
     border-color: var(--gcds-border-default);
   }
   .md\:focus\:b-light:focus {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .md\:focus\:b-transparent:focus {
     border-color: transparent;
@@ -5464,13 +5549,13 @@ table {
     border-color: currentColor;
   }
   .lg\:b-dark {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .lg\:b-default {
     border-color: var(--gcds-border-default);
   }
   .lg\:b-light {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .lg\:b-transparent {
     border-color: transparent;
@@ -5482,13 +5567,13 @@ table {
     border-color: currentColor;
   }
   .lg\:hover\:b-dark:hover {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .lg\:hover\:b-default:hover {
     border-color: var(--gcds-border-default);
   }
   .lg\:hover\:b-light:hover {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .lg\:hover\:b-transparent:hover {
     border-color: transparent;
@@ -5500,13 +5585,13 @@ table {
     border-color: currentColor;
   }
   .lg\:focus\:b-dark:focus {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .lg\:focus\:b-default:focus {
     border-color: var(--gcds-border-default);
   }
   .lg\:focus\:b-light:focus {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .lg\:focus\:b-transparent:focus {
     border-color: transparent;
@@ -5520,13 +5605,13 @@ table {
     border-color: currentColor;
   }
   .xl\:b-dark {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .xl\:b-default {
     border-color: var(--gcds-border-default);
   }
   .xl\:b-light {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .xl\:b-transparent {
     border-color: transparent;
@@ -5538,13 +5623,13 @@ table {
     border-color: currentColor;
   }
   .xl\:hover\:b-dark:hover {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .xl\:hover\:b-default:hover {
     border-color: var(--gcds-border-default);
   }
   .xl\:hover\:b-light:hover {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .xl\:hover\:b-transparent:hover {
     border-color: transparent;
@@ -5556,13 +5641,13 @@ table {
     border-color: currentColor;
   }
   .xl\:focus\:b-dark:focus {
-    border-color: var(--gcds-color-grayscale-1000);
+    border-color: var(--gcds-color-black);
   }
   .xl\:focus\:b-default:focus {
     border-color: var(--gcds-border-default);
   }
   .xl\:focus\:b-light:focus {
-    border-color: var(--gcds-color-grayscale-0);
+    border-color: var(--gcds-color-white);
   }
   .xl\:focus\:b-transparent:focus {
     border-color: transparent;
@@ -10577,8 +10662,8 @@ table {
   background-color: var(--gcds-focus-background);
   color: var(--gcds-focus-text);
   text-decoration: none;
-  -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
-          box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+  -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+          box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
   outline-offset: var(--gcds-border-width-md);
   outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
 }
@@ -10589,8 +10674,8 @@ table {
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
     text-decoration: none;
-    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
-            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
     outline-offset: var(--gcds-border-width-md);
     outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
@@ -10601,8 +10686,8 @@ table {
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
     text-decoration: none;
-    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
-            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
     outline-offset: var(--gcds-border-width-md);
     outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
@@ -10613,8 +10698,8 @@ table {
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
     text-decoration: none;
-    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
-            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
     outline-offset: var(--gcds-border-width-md);
     outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
@@ -10625,8 +10710,8 @@ table {
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
     text-decoration: none;
-    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
-            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
     outline-offset: var(--gcds-border-width-md);
     outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
@@ -10637,8 +10722,8 @@ table {
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
     text-decoration: none;
-    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
-            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
     outline-offset: var(--gcds-border-width-md);
     outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
