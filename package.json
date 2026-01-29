@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@gcds-core/fonts": "^1.0.0",
-    "@cdssnc/gcds-tokens": "^2.11.0",
+    "@gcds-core/tokens": "^1.0.0",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
