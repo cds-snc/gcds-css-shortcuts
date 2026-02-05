@@ -3,8 +3,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - @gcds-core/css-shortcuts*
-
+      - "@gcds-core/css-shortcuts*"
 permissions:
   id-token: write
   contents: read
