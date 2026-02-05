@@ -1,5 +1,5 @@
 {
-  "bootstrap-sha": "251dd4331dc9ecec857d2191787dcde6fa5a4eae",
+  "bootstrap-sha": "0690d3210da8afa70a118c39ea8d9596875a879f",
   "packages": {
     ".": {
       "changelog-path": "CHANGELOG.md",
@@ -7,7 +7,10 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "pull-request-title-pattern": "chore: GCDS CSS Shortcuts v${version}"
+      "pull-request-title-pattern": "chore: GCDS CSS Shortcuts v${version}",
+      "include-component-in-tag": true,
+      "release-type": "node",
+      "component": "@gcds-core/css-shortcuts"
     }
   },
   "changelog-sections": [
