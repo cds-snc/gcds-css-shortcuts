@@ -4,7 +4,7 @@
 
 $backgroundColors: (
   active: var(--gcds-active-background),
-  black: var(--gcds-color-grayscale-1000),
+  black: var(--gcds-color-black),
   current: currentColor,
   danger: var(--gcds-danger-background),
   dark: var(--gcds-bg-dark),
@@ -14,6 +14,7 @@ $backgroundColors: (
   primary: var(--gcds-bg-primary),
   transparent: transparent,
   white: var(--gcds-bg-white),
-) !default;
+  ) !default;
 
-@include mixins.generateClasses($backgroundColors, 'bg-', background-color);
+@include mixins.generateClasses($backgroundColors, 'bg-', background-color
+);
