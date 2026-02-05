@@ -1,5 +1,12 @@
 ([Français](#journal-des-modifications))
 # Changelog
+## [1.1.0](https://github.com/cds-snc/gcds-css-shortcuts/compare/@gcds-core/css-shortcuts-v1.0.1...@gcds-core/css-shortcuts-v1.1.0) (2026-02-05)
+
+
+### :rocket: New Features
+
+* Update to @gcds-core/tokens package ([#318](https://github.com/cds-snc/gcds-css-shortcuts/issues/318)) ([603ffb6](https://github.com/cds-snc/gcds-css-shortcuts/commit/603ffb62ef887fdfbaedb86be851c45c4aff68f6))
+
 ## [1.0.1](https://github.com/cds-snc/gcds-css-shortcuts/compare/css-shortcuts-v1.0.0...css-shortcuts-v1.0.1)
 Released on: 2025-10-16
 
