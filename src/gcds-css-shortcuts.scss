@@ -1,9 +1,9 @@
 // GCDS tokens
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/link.css';
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/text.css';
+@use '../node_modules/@gcds-core/tokens/build/web/css/base.css';
+@use '../node_modules/@gcds-core/tokens/build/web/css/global.css';
+@use '../node_modules/@gcds-core/tokens/build/web/css/components/heading.css';
+@use '../node_modules/@gcds-core/tokens/build/web/css/components/link.css';
+@use '../node_modules/@gcds-core/tokens/build/web/css/components/text.css';
 
 // GCDS CSS Shortcuts
 @use 'utilities/reset.scss';
