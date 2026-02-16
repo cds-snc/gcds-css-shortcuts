@@ -22,7 +22,7 @@ Released on: 2025-09-29
 
 CSS Shortcuts is a CSS utility framework built to match GC Design System styles and Canada.ca standards. It provides CSS classes with pre-defined design elements, like colour, spacing, and typography.
 
-Apply these classes to your HTML when you need custom styles for page layouts or elements. Read our new [guidance section](https://design-system.alpha.canada.ca/en/css-shortcuts/) on the website for technical documentation (coming soon!).
+Apply these classes to your HTML when you need custom styles for page layouts or elements. Read our new [guidance section](https://design-system.canada.ca/en/css-shortcuts/) on the website for technical documentation (coming soon!).
 
 #### Update from `@cdssnc/gcds-utility` to `@gcds-core/css-shortcuts`
 This product has previously been released as an alpha version named GCDS Utility Framework (`@cdssnc/gcds-utility`). We have republished it under a new name, a new home (it’s now under `@gcds-core`), with full technical documentation which marks its official product release: `@gcds-core/css-shortcuts`.
@@ -33,7 +33,7 @@ As part of this change, the version number has been reset to v1.0.0, so you’ll
 Our page templates use the CSS Shortcuts (previously `gcds-utility`) stylesheet by default. Replace your existing stylesheet link with the following. Note the new path, version number, and filename.
 ```html
 <link rel="stylesheet"
-href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
+href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
 ```
 
 ###### ⚠️ CDN deprecation notice:
@@ -70,7 +70,7 @@ Version publiée le : 2025-09-29
 Les Raccourcis CSS sont un cadre utilitaire CSS conçu en conformité avec les styles de Système de design GC et les normes de Canada.ca. Vous y trouverez des classes CSS avec des éléments de design prédéfinis, comme la couleur, l’espacement et la typographie. 
 
 Appliquez ces classes à votre code HTML lorsqu’il vous faut des styles personnalisés pour des mises en page ou des éléments particuliers.
-Consultez la nouvelle section du site Web sur les [lignes directrices](https://design-system.alpha.canada.ca/fr/raccourcis-css/) afin de lire la documentation technique (à venir!).
+Consultez la nouvelle section du site Web sur les [lignes directrices](https://design-system.canada.ca/fr/raccourcis-css/) afin de lire la documentation technique (à venir!).
 
 #### Mise à jour de `@cdssnc/gcds-utility` à `@gcds-core/css-shortcuts`
 Ce produit existait déjà en version Alpha sous le nom GCDS Utility Framework (Cadre utilitaire SDGC) (`@cdssnc/gcds-utility`). Pour signaler le lancement officiel de `@gcds-core/css-shortcuts`, nous lui avons donné un nouveau nom, un nouvel emplacement (il se trouve maintenant sous `@gcds-core`), ainsi qu’une documentation technique complète. 
@@ -81,7 +81,7 @@ Dans le cadre de ce changement, le numéro de version a été réinitialisé à 
 Nos modèles de page utilisent la feuille de style Raccourcis CSS (anciennement `gcds-utility`) par défaut. Remplacez le lien existant de votre feuille de style par le suivant. Notez le nouveau chemin d’accès, le numéro de version et le nom de fichier.
 ```html
 <link rel="stylesheet"
-href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
+href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@1.0.0/dist/gcds-css-shortcuts.min.css" />
 ```
 
 ###### ⚠️ Avis d’obsolescence du CDN :
