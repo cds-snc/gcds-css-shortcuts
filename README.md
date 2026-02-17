@@ -8,7 +8,7 @@ CSS Shortcuts is a CSS utility framework built to match GC Design System (GCDS) 
 
 ## Documentation
 
-You can find the full documentation on the GC Design System CSS Shortcuts at [https://design-system.alpha.canada.ca/en/css-shortcuts/](https://design-system.alpha.canada.ca/en/css-shortcuts/).
+You can find the full documentation on the GC Design System CSS Shortcuts at [https://design-system.canada.ca/en/css-shortcuts/](https://design-system.canada.ca/en/css-shortcuts/).
 
 ## Installation
 
@@ -27,7 +27,7 @@ Place the following code in the `<head>` element of your site. Replace `<version
 
 ```
 <!-- GC Design System CSS Shortcuts -->
-<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@<version-number>/dist/gcds-css-shortcuts.min.css">
+<link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@<version-number>/dist/gcds-css-shortcuts.min.css">
 ```
 
 #### Automatic updates using `@latest`
@@ -69,7 +69,7 @@ Raccourcis CSS est un cadre utilitaire créé afin de s'aligner avec les styles 
 
 ## Documentation
 
-Toute la documentation sur l'utilitaire de Système de design GC est accessible à l'adresse [https://design-system.alpha.canada.ca/fr/raccourcis-css/](https://design-system.alpha.canada.ca/fr/raccourcis-css/).
+Toute la documentation sur l'utilitaire de Système de design GC est accessible à l'adresse [https://design-system.canada.ca/fr/raccourcis-css/](https://design-system.canada.ca/fr/raccourcis-css/).
 <br/>
 <br/>
 
@@ -90,7 +90,7 @@ Insérez le code qui suit à l'intérieur de la balise `<head>` de votre site. R
 
 ```
 <!-- Système de design GC Raccourcis CSS -->
-<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@<version-number>/dist/gcds-css-shortcuts.min.css">
+<link rel="stylesheet" href="https://cdn.design-system.canada.ca/@gcds-core/css-shortcuts@<version-number>/dist/gcds-css-shortcuts.min.css">
 ```
 
 #### Mises à jour automatiques grâce à `@latest`
