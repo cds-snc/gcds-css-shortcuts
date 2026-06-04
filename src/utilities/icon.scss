@@ -3,8 +3,11 @@
 // GC Design System Fonts - Icons
 @font-face {
   font-family: 'gcds-icons';
-  src: url('https://cdn.design-system.canada.ca/@gcds-core/fonts@1.0.0/icons/gcds-icons.ttf') format('truetype'),
-    url('https://cdn.design-system.canada.ca/@gcds-core/fonts@1.0.0/icons/gcds-icons.woff') format('woff');
+  src:
+    url('https://cdn.design-system.canada.ca/@gcds-core/fonts@1.1.1/icons/gcds-icons.ttf')
+      format('truetype'),
+    url('https://cdn.design-system.canada.ca/@gcds-core/fonts@1.1.1/icons/gcds-icons.woff')
+      format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,60 +29,84 @@
 
 /* --- Icons --- */
 
+.gcds-icon-arrow-down:before {
+  content: '\f013';
+}
+
+.gcds-icon-arrow-up:before {
+  content: '\f011';
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: '\f012';
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: '\e908';
+  content: '\f021';
 }
 
 .gcds-icon-chevron-down:before {
-  content: '\e900';
+  content: '\f020';
 }
 
 .gcds-icon-chevron-left:before {
-  content: '\e901';
+  content: '\f01f';
 }
 
 .gcds-icon-chevron-right:before {
-  content: '\e902';
+  content: '\f01e';
 }
 
 .gcds-icon-chevron-up:before {
-  content: '\e903';
+  content: '\f01d';
 }
 
 .gcds-icon-close:before {
-  content: '\e90b';
+  content: '\f01c';
 }
 
 .gcds-icon-download:before {
-  content: '\e906';
+  content: '\f01b';
 }
 
 .gcds-icon-email:before {
-  content: '\e905';
+  content: '\f01a';
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: '\e909';
+  content: '\f019';
 }
 
 .gcds-icon-external:before {
-  content: '\e904';
+  content: '\f018';
+}
+
+.gcds-icon-filter:before {
+  content: '\f005';
 }
 
 .gcds-icon-info-circle:before {
-  content: '\e90a';
+  content: '\f017';
 }
 
 .gcds-icon-phone:before {
-  content: '\e90c';
+  content: '\f016';
 }
 
 .gcds-icon-search:before {
-  content: '\e907';
+  content: '\f002';
+}
+
+.gcds-icon-sort:before {
+  content: '\f003';
+}
+
+.gcds-icon-tune:before {
+  content: '\f000';
 }
 
 .gcds-icon-warning-triangle:before {
-  content: '\e90d';
+  content: '\f014';
 }
 
 /* --- Icon Sizes --- */
@@ -93,30 +120,29 @@ $sizes: (
   h6: h6,
   text: text,
   text-small: text-small,
-  ) !default;
+) !default;
 
 // Generates icon size classes with breakpoints + states
 @each $classState, $state in $states {
   @each $className, $value in $sizes {
     .#{$classState}icon-#{'' + $className}#{$state} {
-      font-size: var(--gcds-font-sizes-#{$value}
-    );
-    line-height: var(--gcds-line-heights-#{$value});
+      font-size: var(--gcds-font-sizes-#{$value});
+      line-height: var(--gcds-line-heights-#{$value});
 
-    @media only screen and (width < 48em) {
-      font-size: var(--gcds-font-sizes-#{$value}-mobile);
-      line-height: var(--gcds-line-heights-#{$value}-mobile);
+      @media only screen and (width < 48em) {
+        font-size: var(--gcds-font-sizes-#{$value}-mobile);
+        line-height: var(--gcds-line-heights-#{$value}-mobile);
+      }
     }
   }
-}
 
-.#{$classState}icon-inherit#{$state} {
-  font-size: inherit;
-  line-height: inherit;
-
-  @media only screen and (width < 48em) {
+  .#{$classState}icon-inherit#{$state} {
     font-size: inherit;
     line-height: inherit;
+
+    @media only screen and (width < 48em) {
+      font-size: inherit;
+      line-height: inherit;
+    }
   }
-}
 }

@@ -198,8 +198,81 @@ strong {
   font-weight: var(--gcds-font-weights-bold);
 }
 
-/* Remove spacing between cells in tables */
+/* Match table styles to table component */
 table {
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  border-block-start: var(--gcds-table-border-width) solid
+    var(--gcds-table-outer-border-color);
+  font: var(--gcds-table-font);
+  color: var(--gcds-table-text);
+  margin-block-start: var(--gcds-table-margin);
+
+  th {
+    font-weight: var(--gcds-table-header-cell-font-weight);
+    text-align: left;
+    color: var(--gcds-table-header-cell-text);
+    border-block-end: var(--gcds-table-header-cell-border-width) solid
+      var(--gcds-table-header-cell-border-color);
+  }
+
+  thead th {
+    vertical-align: top;
+  }
+
+  tbody {
+    tr,
+    th {
+      border-block-end: var(--gcds-table-border-width) solid
+        var(--gcds-table-cell-border-color);
+    }
+  }
+
+  /* If tbody contains row headers (th), add a vertical divider after the first column */
+  @media only screen and (width >= 48em) {
+    &:has(tbody th) thead th:first-child,
+    tbody th {
+      border-inline-end: var(--gcds-table-header-cell-border-width) solid
+        var(--gcds-table-header-cell-border-color);
+    }
+
+    th,
+    td {
+      padding: var(--gcds-table-cell-padding-desktop);
+    }
+  }
+
+  @media only screen and (width < 48em) {
+    th,
+    td {
+      display: block;
+      font-weight: var(--gcds-table-font-weight-mobile);
+      padding: var(--gcds-table-cell-padding-mobile);
+
+      &:before {
+        display: block;
+        content: attr(data-column);
+        font-size: var(--gcds-table-font-size-small);
+        color: var(--gcds-table-label-mobile);
+      }
+
+      &:first-of-type {
+        padding-block-start: var(--gcds-table-cell-padding-mobile-first-last);
+      }
+
+      &:last-of-type {
+        padding-block-end: var(--gcds-table-cell-padding-mobile-first-last);
+      }
+    }
+
+    thead th {
+      position: absolute;
+      clip: rect(0 0 0 0);
+    }
+
+    tbody th {
+      border: 0;
+    }
+  }
 }
