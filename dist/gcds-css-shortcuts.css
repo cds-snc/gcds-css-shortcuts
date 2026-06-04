@@ -720,16 +720,8 @@ table {
 @media only screen and (width < 48em) {
   table th,
   table td {
-    display: block;
     font-weight: var(--gcds-table-font-weight-mobile);
     padding: var(--gcds-table-cell-padding-mobile);
-  }
-  table th:before,
-  table td:before {
-    display: block;
-    content: attr(data-column);
-    font-size: var(--gcds-table-font-size-small);
-    color: var(--gcds-table-label-mobile);
   }
   table th:first-of-type,
   table td:first-of-type {
@@ -740,10 +732,6 @@ table {
   table td:last-of-type {
     -webkit-padding-after: var(--gcds-table-cell-padding-mobile-first-last);
             padding-block-end: var(--gcds-table-cell-padding-mobile-first-last);
-  }
-  table thead th {
-    position: absolute;
-    clip: rect(0 0 0 0);
   }
   table tbody th {
     border: 0;

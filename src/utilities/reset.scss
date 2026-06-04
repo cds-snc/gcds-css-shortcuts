@@ -246,16 +246,8 @@ table {
   @media only screen and (width < 48em) {
     th,
     td {
-      display: block;
       font-weight: var(--gcds-table-font-weight-mobile);
       padding: var(--gcds-table-cell-padding-mobile);
-
-      &:before {
-        display: block;
-        content: attr(data-column);
-        font-size: var(--gcds-table-font-size-small);
-        color: var(--gcds-table-label-mobile);
-      }
 
       &:first-of-type {
         padding-block-start: var(--gcds-table-cell-padding-mobile-first-last);
@@ -264,11 +256,6 @@ table {
       &:last-of-type {
         padding-block-end: var(--gcds-table-cell-padding-mobile-first-last);
       }
-    }
-
-    thead th {
-      position: absolute;
-      clip: rect(0 0 0 0);
     }
 
     tbody th {
