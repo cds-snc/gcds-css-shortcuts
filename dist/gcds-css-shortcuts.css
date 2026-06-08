@@ -336,7 +336,90 @@
   --gcds-link-font-regular-mobile: 400 1.125rem/155% 'Noto Sans', sans-serif;
   --gcds-link-decoration-thickness: 0.0625rem;
   --gcds-link-hover-decoration-thickness: 0.125rem;
-  --gcds-link-underline-offset: 0.125rem;
+  --gcds-link-underline-offset: 0.05em;
+}
+
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+:root {
+  --gcds-table-active-pills-margin: 1rem;
+  --gcds-table-active-sorting-border-color: #b3b3b3;
+  --gcds-table-active-sorting-border-width: 0.0625rem;
+  --gcds-table-active-sorting-margin: 0.25rem;
+  --gcds-table-active-sorting-padding: 0.5rem;
+  --gcds-table-border-width: 0.0625rem;
+  --gcds-table-button-padding: 0.25rem 0.375rem;
+  --gcds-table-cell-border-color: #8c8c8c;
+  --gcds-table-cell-padding-desktop: 0.75rem 0.5rem;
+  --gcds-table-cell-padding-mobile: 0.375rem 0;
+  --gcds-table-cell-padding-mobile-first-last: 0.75rem;
+  --gcds-table-empty-background: #f2f2f2;
+  --gcds-table-empty-padding-desktop: 4rem;
+  --gcds-table-empty-padding-mobile: 1rem;
+  --gcds-table-filters-border-color: #d9d9d9;
+  --gcds-table-filters-border-width: 0.0625rem;
+  --gcds-table-filters-count-background: #d6e4f5;
+  --gcds-table-filters-count-border-radius: 0.375rem;
+  --gcds-table-filters-count-text: #26374a;
+  --gcds-table-filters-count-line-height: 100%;
+  --gcds-table-filters-count-margin: 0.25rem;
+  --gcds-table-filters-count-padding: 0.25rem 0.5rem;
+  --gcds-table-filters-margin: 1rem;
+  --gcds-table-filters-padding: 1rem;
+  --gcds-table-font: 400 1rem/150% 'Noto Sans', sans-serif;
+  --gcds-table-font-size-small: 0.875rem;
+  --gcds-table-font-weight-mobile: 400;
+  --gcds-table-gap: 0.5rem;
+  --gcds-table-header-cell-border-color: #262626;
+  --gcds-table-header-cell-border-width: 0.125rem;
+  --gcds-table-header-cell-focus-background: #1354ec;
+  --gcds-table-header-cell-focus-box-shadow: 0 0 0 0.125rem #ffffff;
+  --gcds-table-header-cell-focus-outline-offset: 0.125rem;
+  --gcds-table-header-cell-focus-outline-width: 0.25rem;
+  --gcds-table-header-cell-focus-text: #ffffff;
+  --gcds-table-header-cell-font-weight: 700;
+  --gcds-table-header-cell-hover-background: #ebf2fa;
+  --gcds-table-header-cell-text: #1a1a1a;
+  --gcds-table-label-mobile: #595959;
+  --gcds-table-margin: 1rem;
+  --gcds-table-modal-backdrop-background: rgba(0, 0, 0, 0.25);
+  --gcds-table-modal-background: #ffffff;
+  --gcds-table-modal-body-font-bold: 700 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-table-modal-body-font-medium: 500 1.125rem/155% 'Noto Sans', sans-serif;
+  --gcds-table-modal-border: 0.0625rem solid #8c8c8c;
+  --gcds-table-modal-border-radius-desktop: 1.5rem;
+  --gcds-table-modal-border-radius-mobile: 0.875rem 0.875rem 0 0;
+  --gcds-table-modal-box-shadow: 0 0.125rem 1rem 0.25rem rgba(0, 0, 0, 0.2);
+  --gcds-table-modal-footer-box-shadow: 0 -0.25rem 0.75rem -0.125rem rgba(0, 0, 0, 0.1);
+  --gcds-table-modal-footer-button-padding: 0.625rem 1rem;
+  --gcds-table-modal-footer-button-width: 100%;
+  --gcds-table-modal-header-heading: 700 1.25rem/160% 'Noto Sans', sans-serif;
+  --gcds-table-modal-height-mobile: calc(100dvh - 3.5rem);
+  --gcds-table-modal-max-width: 48.5rem;
+  --gcds-table-modal-max-height-desktop: calc(100dvh - 256px);
+  --gcds-table-modal-spacing: 1rem;
+  --gcds-table-modal-width: 100%;
+  --gcds-table-outer-border-color: #d9d9d9;
+  --gcds-table-page-info-border-color: #b3b3b3;
+  --gcds-table-page-info-border-width: 0.0625rem;
+  --gcds-table-page-info-padding: 0.5rem;
+  --gcds-table-pagination-margin: 0.625rem;
+  --gcds-table-pill-background: #e6e6e6;
+  --gcds-table-pill-border-radius: 1.25rem;
+  --gcds-table-pill-focus-background: #1354ec;
+  --gcds-table-pill-focus-box-shadow: 0 0 0 0.125rem #ffffff;
+  --gcds-table-pill-focus-outline-offset: 0.125rem;
+  --gcds-table-pill-focus-outline-width: 0.25rem;
+  --gcds-table-pill-focus-text: #ffffff;
+  --gcds-table-pill-hover-background: #ebf2fa;
+  --gcds-table-pill-hover-text: #26374a;
+  --gcds-table-pill-icon-margin: 0.125rem;
+  --gcds-table-pill-icon-size: 1.5rem;
+  --gcds-table-pill-padding: 0.125rem 0.25rem 0.125rem 0.625rem;
+  --gcds-table-pill-text: #595959;
+  --gcds-table-select-padding: 0.25rem 3.75rem 0.25rem 0.25rem;
+  --gcds-table-text: #333333;
 }
 
 /**
@@ -593,10 +676,66 @@ strong {
   font-weight: var(--gcds-font-weights-bold);
 }
 
-/* Remove spacing between cells in tables */
+/* Match table styles to table component */
 table {
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  -webkit-border-before: var(--gcds-table-border-width) solid var(--gcds-table-outer-border-color);
+          border-block-start: var(--gcds-table-border-width) solid var(--gcds-table-outer-border-color);
+  font: var(--gcds-table-font);
+  color: var(--gcds-table-text);
+  -webkit-margin-before: var(--gcds-table-margin);
+          margin-block-start: var(--gcds-table-margin);
+}
+table th {
+  font-weight: var(--gcds-table-header-cell-font-weight);
+  text-align: left;
+  color: var(--gcds-table-header-cell-text);
+  -webkit-border-after: var(--gcds-table-header-cell-border-width) solid var(--gcds-table-header-cell-border-color);
+          border-block-end: var(--gcds-table-header-cell-border-width) solid var(--gcds-table-header-cell-border-color);
+}
+table thead th {
+  vertical-align: top;
+}
+table tbody tr,
+table tbody th {
+  -webkit-border-after: var(--gcds-table-border-width) solid var(--gcds-table-cell-border-color);
+          border-block-end: var(--gcds-table-border-width) solid var(--gcds-table-cell-border-color);
+}
+table {
+  /* If tbody contains row headers (th), add a vertical divider after the first column */
+}
+@media only screen and (width >= 48em) {
+  table:has(tbody th) thead th:first-child,
+  table tbody th {
+    -webkit-border-end: var(--gcds-table-header-cell-border-width) solid var(--gcds-table-header-cell-border-color);
+            border-inline-end: var(--gcds-table-header-cell-border-width) solid var(--gcds-table-header-cell-border-color);
+  }
+  table th,
+  table td {
+    padding: var(--gcds-table-cell-padding-desktop);
+  }
+}
+@media only screen and (width < 48em) {
+  table th,
+  table td {
+    font-weight: var(--gcds-table-font-weight-mobile);
+    padding: var(--gcds-table-cell-padding-mobile);
+  }
+  table th:first-of-type,
+  table td:first-of-type {
+    -webkit-padding-before: var(--gcds-table-cell-padding-mobile-first-last);
+            padding-block-start: var(--gcds-table-cell-padding-mobile-first-last);
+  }
+  table th:last-of-type,
+  table td:last-of-type {
+    -webkit-padding-after: var(--gcds-table-cell-padding-mobile-first-last);
+            padding-block-end: var(--gcds-table-cell-padding-mobile-first-last);
+  }
+  table tbody th {
+    border: 0;
+  }
 }
 
 /* --- Align Content --- */
@@ -19627,7 +19766,7 @@ table {
 }
 @font-face {
   font-family: "gcds-icons";
-  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@1.0.0/icons/gcds-icons.ttf") format("truetype"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@1.0.0/icons/gcds-icons.woff") format("woff");
+  src: url("https://cdn.design-system.canada.ca/@gcds-core/fonts@1.1.1/icons/gcds-icons.ttf") format("truetype"), url("https://cdn.design-system.canada.ca/@gcds-core/fonts@1.1.1/icons/gcds-icons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -19647,60 +19786,84 @@ table {
 }
 
 /* --- Icons --- */
+.gcds-icon-arrow-down:before {
+  content: "\f013";
+}
+
+.gcds-icon-arrow-up:before {
+  content: "\f011";
+}
+
+.gcds-icon-arrow-up-down:before {
+  content: "\f012";
+}
+
 .gcds-icon-checkmark-circle:before {
-  content: "\e908";
+  content: "\f021";
 }
 
 .gcds-icon-chevron-down:before {
-  content: "\e900";
+  content: "\f020";
 }
 
 .gcds-icon-chevron-left:before {
-  content: "\e901";
+  content: "\f01f";
 }
 
 .gcds-icon-chevron-right:before {
-  content: "\e902";
+  content: "\f01e";
 }
 
 .gcds-icon-chevron-up:before {
-  content: "\e903";
+  content: "\f01d";
 }
 
 .gcds-icon-close:before {
-  content: "\e90b";
+  content: "\f01c";
 }
 
 .gcds-icon-download:before {
-  content: "\e906";
+  content: "\f01b";
 }
 
 .gcds-icon-email:before {
-  content: "\e905";
+  content: "\f01a";
 }
 
 .gcds-icon-exclamation-circle:before {
-  content: "\e909";
+  content: "\f019";
 }
 
 .gcds-icon-external:before {
-  content: "\e904";
+  content: "\f018";
+}
+
+.gcds-icon-filter:before {
+  content: "\f005";
 }
 
 .gcds-icon-info-circle:before {
-  content: "\e90a";
+  content: "\f017";
 }
 
 .gcds-icon-phone:before {
-  content: "\e90c";
+  content: "\f016";
 }
 
 .gcds-icon-search:before {
-  content: "\e907";
+  content: "\f002";
+}
+
+.gcds-icon-sort:before {
+  content: "\f003";
+}
+
+.gcds-icon-tune:before {
+  content: "\f000";
 }
 
 .gcds-icon-warning-triangle:before {
-  content: "\e90d";
+  content: "\f014";
 }
 
 /* --- Icon Sizes --- */
