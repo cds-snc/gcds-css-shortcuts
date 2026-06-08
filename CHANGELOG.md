@@ -1,6 +1,8 @@
 ([Français](#journal-des-modifications))
 # Changelog
-## [1.2.0](https://github.com/cds-snc/gcds-css-shortcuts/compare/@gcds-core/css-shortcuts-v1.1.0...@gcds-core/css-shortcuts-v1.2.0) (2026-06-08)
+## [1.2.0](https://github.com/cds-snc/gcds-css-shortcuts/compare/@gcds-core/css-shortcuts-v1.1.0...@gcds-core/css-shortcuts-v1.2.0)
+
+Released on: 2026-06-08
 
 
 ### :rocket: New Features
