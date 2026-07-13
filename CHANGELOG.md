@@ -9,7 +9,9 @@ Released on: 2026-06-08
 
 * add new table styles and new icons ([#350](https://github.com/cds-snc/gcds-css-shortcuts/issues/350)) ([a1ff84b](https://github.com/cds-snc/gcds-css-shortcuts/commit/a1ff84b4a0b2b1f806a8bee82158fef7a31668a5))
 
-## [1.1.0](https://github.com/cds-snc/gcds-css-shortcuts/compare/@gcds-core/css-shortcuts-v1.0.1...@gcds-core/css-shortcuts-v1.1.0) (2026-02-05)
+## [1.1.0](https://github.com/cds-snc/gcds-css-shortcuts/compare/@gcds-core/css-shortcuts-v1.0.1...@gcds-core/css-shortcuts-v1.1.0)
+
+Released on: 2026-02-05
 
 
 ### :rocket: New Features
