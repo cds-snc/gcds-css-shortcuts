@@ -46,7 +46,7 @@ _TODO: Replace the instructions below as needed. Describe any steps required to 
 - [ ] I have verified CSS classes behave correctly across responsive breakpoints.
 - [ ] I have verified CSS classes do not introduce unintended visual or layout regressions.
 - [ ] I have verified CSS classes remain aligned with design tokens and semantic standards (if applicable).
-- [ ] I have verified accessibility requirements continue to meet standards. :accessibility:
+- [ ] I have verified accessibility requirements continue to meet standards. ♿
 - [ ] I have verified documentation and usage examples reflect the changes.
 - [ ] For visual or design changes, I have posted in the dev-design Slack channel.
 - [ ] I have ensured test instructions are clear and reproducible.
