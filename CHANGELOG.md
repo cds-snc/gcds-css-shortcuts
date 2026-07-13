@@ -58,7 +58,7 @@ Before:
   ```js
     import '@cdssnc/gcds-utility/dist/gcds-utility.min.css';
   ```
-  After:
+After:
   ```js
     import '@gcds-core/css-shortcuts/dist/gcds-css-shortcuts.min.css';
   ```
