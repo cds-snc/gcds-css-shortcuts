@@ -2,7 +2,10 @@
 
 /* --- Focus --- */
 
-@include mixins.classWithBreakpoints('focus\\:default', 'false') {
+@include mixins.classWithBreakpoints(
+  'focus\\:default',
+  'false' // Indicates that responsive breakpoint variants are disabled for this focus utility.
+) {
   &:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
