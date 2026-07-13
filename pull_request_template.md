@@ -10,7 +10,7 @@ _TODO:_
 
 _TODO: Link to related issue(s) that this PR addresses or fixes, e.g. "Closes #124", "Fixes #456"._
 
-- Issue #
+- Issue: #123
 - Zenhub issue:
 
 
