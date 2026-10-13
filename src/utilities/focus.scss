@@ -2,13 +2,16 @@
 
 /* --- Focus --- */
 
-@include mixins.classWithBreakpoints('focus\\:default', 'false') {
+@include mixins.classWithBreakpoints(
+  'focus\\:default',
+  'false' // Indicates that responsive breakpoint variants are disabled for this focus utility.
+) {
   &:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
     text-decoration: none;
-    box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-white);
+    box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-focus-ring);
     outline-offset: var(--gcds-border-width-md);
     outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
