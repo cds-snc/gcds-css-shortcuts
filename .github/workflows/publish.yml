@@ -35,8 +35,6 @@ jobs:
       - name: Publish @gcds-core/css-shortcuts to npm
         run: npm publish --ignore-scripts
         id: publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Report deployment to Sentinel
         if: always()
