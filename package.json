@@ -9,7 +9,7 @@
     "dist/"
   ],
   "scripts": {
-    "compile": "gulp compile",
+    "compile": "gulp compile && node scripts/add-version-banner.js",
     "format": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
